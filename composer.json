@@ -1,0 +1,17 @@
+{
+    "name": "droptica/ddr_security_automated_logout",
+    "type": "drupal-recipe",
+    "description": "Droptica’s Drupal Recipes: Automated Logout after inactivity",
+    "keywords": ["recipe", "Drupal recipes", "Drupal recipe"],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.3",
+        "drupal/autologout": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Droptica",
+            "role": "Company"
+        }
+    ]
+}

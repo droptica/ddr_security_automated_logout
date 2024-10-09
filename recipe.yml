@@ -1,0 +1,11 @@
+name: 'DDR Security: Automated Logout after inactivity'
+type: 'Droptica’s Drupal Recipes'
+description: "Automatic logout of users after a period of inactivity"
+
+install:
+  - autologout
+  - user
+
+config:
+  import:
+    autologout: '*'
