@@ -11,7 +11,7 @@ After installing the Recipe, customize the settings on this page:
 ## Download recipe
 
 ```shell
-composer require droptica/ddr_security_email_notifications_password_changed
+composer require droptica/ddr_security_automated_logout
 ```
 
 ## Installation
@@ -19,7 +19,7 @@ composer require droptica/ddr_security_email_notifications_password_changed
 Optionally: Before installation, adjust the recipe files to your project (e.g., email variables, names, labels, etc.).
 
 ```shell
-drush recipe recipes/contrib/ddr_security_email_notifications_password_changed
+drush recipe recipes/contrib/ddr_security_automated_logout
 ```
 
 ## How to report issues and new features requests
